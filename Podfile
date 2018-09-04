@@ -7,5 +7,6 @@ target 'FirestoreSample' do
 
   # Pods for FirestoreSample
   pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 
 end
