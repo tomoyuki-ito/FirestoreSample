@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E2335A9D930EFEA312A0C99 /* Pods_FirestoreSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC5A79944953A3E9D1DB6BB /* Pods_FirestoreSample.framework */; };
 		DC037C46213E980200CCBBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037C45213E980200CCBBA8 /* AppDelegate.swift */; };
 		DC037C48213E980200CCBBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC037C47213E980200CCBBA8 /* ViewController.swift */; };
 		DC037C4B213E980200CCBBA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC037C49213E980200CCBBA8 /* Main.storyboard */; };
 		DC037C4D213E981400CCBBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC037C4C213E981400CCBBA8 /* Assets.xcassets */; };
 		DC037C50213E981400CCBBA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC037C4E213E981400CCBBA8 /* LaunchScreen.storyboard */; };
+		DC037C58213E993B00CCBBA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC037C57213E993B00CCBBA8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A31CF57E8259BC989CF19E0 /* Pods-FirestoreSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreSample/Pods-FirestoreSample.debug.xcconfig"; sourceTree = "<group>"; };
 		DC037C42213E980200CCBBA8 /* FirestoreSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirestoreSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC037C45213E980200CCBBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC037C47213E980200CCBBA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		DC037C4C213E981400CCBBA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC037C4F213E981400CCBBA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC037C51213E981400CCBBA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC037C57213E993B00CCBBA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F34A85EF67040FD329920D20 /* Pods-FirestoreSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreSample/Pods-FirestoreSample.release.xcconfig"; sourceTree = "<group>"; };
+		FAC5A79944953A3E9D1DB6BB /* Pods_FirestoreSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirestoreSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2335A9D930EFEA312A0C99 /* Pods_FirestoreSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61421F3F0784EEDD1017C12B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A31CF57E8259BC989CF19E0 /* Pods-FirestoreSample.debug.xcconfig */,
+				F34A85EF67040FD329920D20 /* Pods-FirestoreSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B183AEBDCF711279188DC858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC5A79944953A3E9D1DB6BB /* Pods_FirestoreSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC037C39213E980100CCBBA8 = {
 			isa = PBXGroup;
 			children = (
 				DC037C44213E980200CCBBA8 /* FirestoreSample */,
 				DC037C43213E980200CCBBA8 /* Products */,
+				61421F3F0784EEDD1017C12B /* Pods */,
+				B183AEBDCF711279188DC858 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				DC037C4C213E981400CCBBA8 /* Assets.xcassets */,
 				DC037C4E213E981400CCBBA8 /* LaunchScreen.storyboard */,
 				DC037C51213E981400CCBBA8 /* Info.plist */,
+				DC037C57213E993B00CCBBA8 /* GoogleService-Info.plist */,
 			);
 			path = FirestoreSample;
 			sourceTree = "<group>";
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC037C54213E981400CCBBA8 /* Build configuration list for PBXNativeTarget "FirestoreSample" */;
 			buildPhases = (
+				44AF796C9615E8B967C51E21 /* [CP] Check Pods Manifest.lock */,
 				DC037C3E213E980100CCBBA8 /* Sources */,
 				DC037C3F213E980100CCBBA8 /* Frameworks */,
 				DC037C40213E980100CCBBA8 /* Resources */,
+				93BA8E0431CD93491035F0AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC037C50213E981400CCBBA8 /* LaunchScreen.storyboard in Resources */,
+				DC037C58213E993B00CCBBA8 /* GoogleService-Info.plist in Resources */,
 				DC037C4D213E981400CCBBA8 /* Assets.xcassets in Resources */,
 				DC037C4B213E980200CCBBA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44AF796C9615E8B967C51E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirestoreSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93BA8E0431CD93491035F0AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirestoreSample/Pods-FirestoreSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirestoreSample/Pods-FirestoreSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC037C3E213E980100CCBBA8 /* Sources */ = {
@@ -278,6 +349,7 @@
 		};
 		DC037C55213E981400CCBBA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A31CF57E8259BC989CF19E0 /* Pods-FirestoreSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +368,7 @@
 		};
 		DC037C56213E981400CCBBA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34A85EF67040FD329920D20 /* Pods-FirestoreSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
